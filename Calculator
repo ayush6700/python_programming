@@ -1,0 +1,19 @@
+espond='Y'
+while(respond=='Y'):
+     a=int(input("value of a:-"))
+     b=int(input("value of b:-"))
+     print("1.ADD  2.SUB  3.MUl  4.DIV  ")
+     op=int(input("choose one:-"))
+     if op==1 :
+          print("Sum=",a+b)
+     elif op==2:
+          print("Sub=",a-b)
+     elif op==3:    
+          print("Mul=",a*b)
+     elif op==4:
+          print("Div=",a/b)
+     else:
+          print("Invalid input")
+
+     respond=input("Do u want to continue:(Y/N)")
+
