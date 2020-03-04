@@ -1,0 +1,11 @@
+
+def fact(n):
+     if n==1 :
+          return 1
+     else:
+          ans=n*fact(n-1)
+     return ans
+
+num=int(input('Enter the num:-'))
+ans= fact(num)
+print("Factorial of {} is {}".format(num,ans))
